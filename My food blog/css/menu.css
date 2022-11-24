@@ -1,0 +1,55 @@
+/*media queries*/
+
+@media(max-width: 768px){
+   
+    .logo{
+     font-size:3rem;
+     padding: 40px;
+     
+    }
+     .nav-menu{
+        flex-direction: column;
+        padding: 10px;
+        height: 400px;
+        text-align: center;
+    
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        width: 100%;
+    }
+    footer{
+        width:47ch;
+    }
+    .about-me  {
+        height: 500px;
+    }
+
+    .breakfast-1{
+        grid-template-columns:  1fr; 
+        grid-column: 1;
+        grid-row: 1;
+    }
+     .lunch-1{
+        grid-template-columns:  1fr; 
+            grid-column: 1;
+            grid-row: 1;
+        
+                 }           
+     .super-1{
+     grid-template-columns: 1fr;
+     grid-column: 1;
+        grid-row: 1;
+     }
+                
+    .desert-1{
+        grid-template-columns: 1fr;            
+         grid-column: 1;
+        grid-row: 1;   
+
+}
+}
+    

@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+header{
+    background: #F4F2f7;
+}
+ul{
+    list-style-type: none;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background: #183059;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #f6f4f3;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+    
+   a:hover{
+        color:#ff9770 ;
+        transition: all .5s ease-in-out;
+    }
+.nav-bar{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    margin: 30px;
+    transition: all .5s ease-in-out;
+}
+.logo{
+    color:#ff9770 ;
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+
+#menubtn{
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+
+#img1{
+    width: 100%;
+    height: 500px;
+}
+footer{
+    text-align: center;
+    background: #183059;
+}
+.food-insight{
+    color: #a77e58;
+
+}
+.social-icons > a{
+    border-radius: 50px;
+    background: #F4F2f7;
+    height: 50px;
+    padding: 10px;
+    color: #240115;
+}
+.social-icons > a:hover{
+    color:#ff9770;
+}
+.copyright{
+    color: #a77e58;
+    margin-bottom: 10px;
+}
+/*About*/
+#img2{
+    width: 100%;
+    height: 500px;
+}
+h2{
+    color: #231b1b;
+}
+.about-me{
+    color: #041b15;
+    background:#929487;
+    height: 200px;
+    padding: 30px;
+}
+
+/*bog*/
+.blog{
+    background: #f4f1de;
+}
+.blog h2{
+    text-align: center;
+    padding: 10px;
+    background: whitesmoke;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: whitesmoke;
+
+}
+.nav-link > a{
+    color: #0a0f0d;
+    font-size: 1rem;
+}
+h3{
+    color: #220C10;
+    margin-left: 10px;
+}
+#morning > p{
+    margin-left: 30px;
+}
+#afternoon > p{
+    margin-left: 30px;
+}
+#evening > p{
+    margin-left: 30px;
+}
+#afterfood > p{
+    margin-left: 30px;
+}
+#img3{
+    height: 400px;
+    
+}
+.morning-we-easy{
+    text-align: center;
+    padding: 20px;
+    background: #e2565d;
+}
+.afternoon-we-easy{
+    text-align: center;
+    padding: 20px;
+    background: #e2565d;
+}
+.evening-we-easy{
+    text-align: center;
+    padding: 20px;
+    background: #e2565d;
+} 
+.afterfood-we-easy{
+    text-align: center;
+    padding: 20px;
+    background: #e2565d;
+}
+.full-details{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}  
+.full-details h4{
+    text-decoration: underline;
+    color: #e2565d;
+    padding: 5px;
+    text-align: center;
+} 
+.full-details > ul{
+    text-align: left;
+    list-style-type: circle;
+    display: inline-block;
+    
+}
+.full-details > ol{
+    display: inline-block;
+    text-align: left;
+}
+.full-details h4{
+    text-decoration: underline;
+    color: #e2565d;
+    padding: 5px;
+    text-align: center;
+} 
+.full-details > ul{
+    text-align: left;
+    list-style-type: circle;
+    display: inline-block;
+    
+}
+.full-details > ol{
+    display: inline-block;
+    text-align: left;
+}
+
+/*view*/
+.reci{
+    background: #eaf0ce;
+}
+h1{
+    color: #0e0004;
+    background: #f6f4f3;
+    text-align: center;
+    padding: 20px;
+}
+.break > h3{
+    text-align: center;
+}
+.brunch > h3{
+    text-align: center;
+}
+.supper > h3{
+    text-align: center;
+}
+.dessert > h3{
+    text-align: center;
+}
+.recipes-container{
+    margin: 30px;
+    
+
+}
+.super-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;;
+}
+.super-1a  :hover{
+    background: #F03a47;
+}
+
+
+img{
+    height: 200px;
+    width: 315px;
+    margin: auto;
+}
+.breakfast-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+.breakfast-1a :hover{
+    background: #F03a47;
+}
+.lunch-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+.lunch-1a :hover{
+    background: #F03a47;
+}
+.desert-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+.desert-1a :hover{
+    background: #F03a47;
+}
+
+
+   
+   
+   
+   /*.nav-bar ul li{
+    display: block;
+    margin: 50px 0;*/
+
+  
+
+
+
+
+
+
